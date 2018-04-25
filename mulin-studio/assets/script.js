@@ -36,6 +36,3 @@ $('.carousel').swipe( {
      },
      allowPageScroll: 'vertical'
  });
-
-
-
