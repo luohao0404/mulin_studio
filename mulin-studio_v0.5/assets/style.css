@@ -196,16 +196,9 @@ img.img-contain{
 .team a i.fa{color: #fff; font-size: 2em;}
 .team a i.fa:hover{color: #E89F10;}
 
-div.team-grid {
-	width: 25%;
-	float: left;
-	margin : 0em;
-}
-
-div.team-grid-l {
-	width: 50%;
-	float: left;
-	margin : 0em;
+div .p-name{
+    font-weight: 600;
+    font-size:large;
 }
 
 
@@ -232,9 +225,17 @@ img.wechat{
 #describe img{
 	max-width:100%;
 	height:14vh;
+    margin:2px;
+    
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-
+#describe img:hover{
+    
+    opacity: 0.5;
+}
 
 
 .footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa; margin-top:0em;}
