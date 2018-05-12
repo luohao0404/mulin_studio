@@ -19,6 +19,12 @@
     margin-bottom:1em;
 }
 
+#works figure {
+    
+    margin-top:0em;
+    margin-bottom:0em;
+}
+
 .grid-sub figure {
 	position: relative;
 	float: left;
