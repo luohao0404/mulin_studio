@@ -1,13 +1,13 @@
 body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;
 -webkit-font-smoothing:antialiased;
 background-size:auto;
-font-family: 'cwTeXYen', sans-serif;
-    background:#080808;}
+font-family: 'cwTeXYen', sans-serif;}
 
 .body-home {
   position   : static;
   margin     : auto;
   overflow   : hidden;
+  background:#080808;
 }
 
 /* --- ”wŒi‚ÌŽw’è ------------------------------------------- */
