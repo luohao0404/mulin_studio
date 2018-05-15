@@ -1,8 +1,8 @@
 body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;
-/*background:url(../images/home/home.jpg) center no-repeat fixed #fff; */
 -webkit-font-smoothing:antialiased;
 background-size:auto;
-font-family: 'cwTeXYen', sans-serif;}
+font-family: 'cwTeXYen', sans-serif;
+    background:#080808;}
 
 .body-home {
   position   : static;
