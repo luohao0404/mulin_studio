@@ -10,7 +10,7 @@ font-family: 'cwTeXYen', sans-serif;}
   background:#080808;
 }
 
-/* --- �w�i�̎w�� ------------------------------------------- */
+/* --- îwåiÇÃéwíË ------------------------------------------- */
 .body-home .bgImg {
   position   : fixed;
   top        : 0;
@@ -18,25 +18,29 @@ font-family: 'cwTeXYen', sans-serif;}
   bottom     : 0;
   right      : 0;
   opacity    : 0;
-  animation  : bgAnime 20s infinite;   /* 4�摜 �~ �e5s = 20s */
-  background-size: cover;
+  animation  : bgAnime 20s infinite;   /* 4âÊëú Å~ äe5s = 20s */
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
-/* --- �i���Ŕw�i�摜�̃A�j���[�V���������s ----------------- */
+/* --- íiç∑Ç≈îwåiâÊëúÇÃÉAÉjÉÅÅ[ÉVÉáÉìÇé¿çs ----------------- */
 .body-home .src1 {
-  background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* �w�i�̉摜���w�� */
+  background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* îwåiÇÃâÊëúÇéwíË */
+  background-size: contain;
 }
 .body-home .src2 {
-  background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* �w�i�̉摜���w�� */
+  background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background-size: contain;
   animation-delay  : 5s;
 }
 .body-home .src3 {
-  background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* �w�i�̉摜���w�� */
+  background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background-size: contain;
   animation-delay  : 10s;
 }
 .body-home .src4 {
-  background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* �w�i�̉摜���w�� */
+  background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background-size: contain;
   animation-delay  : 15s;
 }
 
@@ -242,6 +246,10 @@ img.wechat{
     opacity: 0.5;
 }
 
+div .contact-pad{
+    padding:3em;
+}
+
 
 .footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa; margin-top:0em;}
 .footer a{color: #aaa;margin: 0 1em; }
@@ -263,6 +271,7 @@ img.wechat{
 }
 
 @media (max-width: 900px) {
+    
 	h1{font: 700 3.5em Roboto,Arial,Helvetica;}
 	h4 {font: 300 1.3em Roboto,Arial,Helvetica;}
 	.btn{padding: 1em 2em;}
@@ -276,6 +285,31 @@ img.wechat{
 
 
 @media (max-width: 767px) {
+    
+    /* --- íiç∑Ç≈îwåiâÊëúÇÃÉAÉjÉÅÅ[ÉVÉáÉìÇé¿çs ----------------- */
+    .body-home .src1 {
+        background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* îwåiÇÃâÊëúÇéwíË */
+        background-size: cover;
+    }
+    .body-home .src2 {
+        background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background-size: cover;
+        animation-delay  : 5s;
+    }
+    .body-home .src3 {
+        background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background-size: cover;
+        animation-delay  : 10s;
+    }
+    .body-home .src4 {
+        background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background-size: cover;
+        animation-delay  : 15s;
+    }
+    
+    
+    
+    
 	body{font:300 12px/12px Roboto,Arial,Helvetica;}
 	.navbar-nav > li > a {line-height: 1em;}	
 	.navbar-brand{padding: 7px;}
