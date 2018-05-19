@@ -113,6 +113,11 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;font-weight: 600;}
   width: 100%;
 }
 
+.navbar-brand-img {
+    padding:1em;
+    width:110px;
+}
+
 #head,.carousel{margin-top: 0;}
 
 #home{
