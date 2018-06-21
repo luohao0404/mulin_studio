@@ -136,7 +136,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;font-weight: 600;}
 .home-entry {
 	display:inline-block;
 	position:relative;
-	border: medium solid #ffffff;
+	border:thin solid #ffffff;
 	width: 250px;
 	margin: 0 auto;
 	padding: 0.2em;
