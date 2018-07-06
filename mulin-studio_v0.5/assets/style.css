@@ -1,7 +1,9 @@
 body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;
 -webkit-font-smoothing:antialiased;
 background-size:auto;
-font-family: 'cwTeXYen', sans-serif;}
+font-family: 'cwTeXYen', sans-serif;
+font-style: oblique;
+}
 
 .body-home {
   position   : static;
@@ -10,7 +12,7 @@ font-family: 'cwTeXYen', sans-serif;}
   background:#080808;
 }
 
-/* --- îwåiÇÃéwíË ------------------------------------------- */
+/* --- ﾃｮwﾃ･iﾃ�ﾃεｩwﾃｭﾃ� ------------------------------------------- */
 .body-home .bgImg {
   position   : fixed;
   top        : 0;
@@ -18,28 +20,28 @@ font-family: 'cwTeXYen', sans-serif;}
   bottom     : 0;
   right      : 0;
   opacity    : 0;
-  animation  : bgAnime 20s infinite;   /* 4âÊëú Å~ äe5s = 20s */
+  animation  : bgAnime 20s infinite;   /* 4ﾃ｢ﾃ甘ｫﾃｺ ﾃ�~ ﾃ､e5s = 20s */
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-/* --- íiç∑Ç≈îwåiâÊëúÇÃÉAÉjÉÅÅ[ÉVÉáÉìÇé¿çs ----------------- */
+/* --- ﾃｭiﾃｧ竏妥�竕暗ｮwﾃ･iﾃ｢ﾃ甘ｫﾃｺﾃ�ﾃε陰ﾃ泳ﾃ嘉�ﾃ�[ﾃ鰻ﾃ嘉｡ﾃ嘉ｬﾃ��｣ｿﾃｩﾂｿﾃｧs ----------------- */
 .body-home .src1 {
-  background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* îwåiÇÃâÊëúÇéwíË */
+  background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
   background-size: contain;
 }
 .body-home .src2 {
-  background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
   background-size: contain;
   animation-delay  : 5s;
 }
 .body-home .src3 {
-  background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
   background-size: contain;
   animation-delay  : 10s;
 }
 .body-home .src4 {
-  background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+  background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
   background-size: contain;
   animation-delay  : 15s;
 }
@@ -176,6 +178,25 @@ img.img-contain{
 	object-fit: contain;
 }
 
+.bot-pad{
+	
+	padding-bottom: 5vh;
+	
+}
+
+
+.figcaption-about {
+	padding:-2em;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	flex-flow: column;
+	-webkit-box-pack:justify;
+	-ms-flex-pack:justify;
+	justify-content:space-around;
+}
+
+
 
 /*about*/
 .about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;margin-bottom: 4em;}
@@ -208,10 +229,66 @@ img.img-contain{
 .team a i.fa:hover{color: #E89F10;}
 
 div .p-name{
-    font-weight: 600;
+    font-weight: 400;
     font-size:large;
+    /*display:inline;*/
 }
 
+
+/*maruya*/
+.maruya-profile-img{
+	width:90%;
+	max-width: 350px
+}
+
+.maruya-about-div{
+	padding-left: 10%;
+	padding-top: 10vh;
+}
+
+.p-middle{
+	text-align: center;
+}
+
+.maruya-hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.team-hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.maruya-history {font-style: oblique; }
+
+.maruya-photo {
+  position: relative;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.maruya-photo-img{
+  position: absolute;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+.h-5-middle h5{
+	text-align: center;
+	padding-bottom: 10vh;
+	font-style: oblique;
+}
 
 .highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background: rgba(232,159,16,0.7);}
@@ -291,23 +368,23 @@ div .contact-pad{
 
 @media (max-width: 767px) {
     
-    /* --- íiç∑Ç≈îwåiâÊëúÇÃÉAÉjÉÅÅ[ÉVÉáÉìÇé¿çs ----------------- */
+    /* --- ﾃｭiﾃｧ竏妥�竕暗ｮwﾃ･iﾃ｢ﾃ甘ｫﾃｺﾃ�ﾃε陰ﾃ泳ﾃ嘉�ﾃ�[ﾃ鰻ﾃ嘉｡ﾃ嘉ｬﾃ��｣ｿﾃｩﾂｿﾃｧs ----------------- */
     .body-home .src1 {
-        background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* îwåiÇÃâÊëúÇéwíË */
+        background: url(../images/home/home_0.jpg) no-repeat center center fixed;   /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
         background-size: cover;
     }
     .body-home .src2 {
-        background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background: url(../images/home/home_1.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
         background-size: cover;
         animation-delay  : 5s;
     }
     .body-home .src3 {
-        background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background: url(../images/home/home_2.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
         background-size: cover;
         animation-delay  : 10s;
     }
     .body-home .src4 {
-        background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* îwåiÇÃâÊëúÇéwíË */
+        background: url(../images/home/home_3.jpg) no-repeat center center fixed;  /* ﾃｮwﾃ･iﾃ�ﾃε｢ﾃ甘ｫﾃｺﾃ��｣ｿﾃｩwﾃｭﾃ� */
         background-size: cover;
         animation-delay  : 15s;
     }
