@@ -181,7 +181,7 @@ img.img-contain{
 .bot-pad{
 	
 	padding-bottom: 5vh;
-	
+    max-width:1200px;
 }
 
 
@@ -341,7 +341,7 @@ div .contact-pad{
 
 
 @media (max-width: 1200px) {
-	body{font:300 13px/13px Roboto,Arial,Helvetica;}
+    body{font:300 13px/13px Roboto,Arial,Helvetica;}
 	.navbar-brand{padding-top: 11px;}
 	.services ul li{margin:0 5em; }
 	
