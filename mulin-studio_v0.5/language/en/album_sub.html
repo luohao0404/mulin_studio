@@ -41,15 +41,49 @@ window.onload = function () {
 	// get page from album
 	var urlPrm = new Object;
 	var urlSearch = location.search.substring(1).split('&');
+	var count = 1;
+	
 	for(i=0;urlSearch[i];i++) {
 	  var kv = urlSearch[i].split('=');
 	  urlPrm[kv[0]]=kv[1];
 	}
+	
+	
+	switch( urlPrm.page ) {
+    case "1":
+        count = 10;
+        break;
+ 
+    case "2":
+        count = 9;
+        break;
+ 
+    case "3":
+        count = 9;
+        break;
+ 
+    case "4":
+        count = 6;
+        break;
+    }
 
-	for (step = 1; step <= 6; step++) {
+	for (step = 1; step <= count; step++) {
+		
+		var div_element = document.createElement("div");
+		div_element.className += 'item';
+		
+		if(step == 1){
+			div_element.className += ' active';
+		}
+		
+        div_element.innerHTML = '<img id="flip-' + step + '" class="img-contain" alt="banner">';
+        var parent_object = document.getElementById("parent");
+        parent_object.appendChild(div_element);
+        
+        
 	    var flip = document.getElementById("flip-" + step);
 	    flip.src = "images/album-sub/" + urlPrm.page + "/" + step + ".jpg"
-		
+    
 	}
 };
 
@@ -94,22 +128,9 @@ window.onload = function () {
 <div id="album-sub">
 <!-- Slider Starts -->
 <div id="myCarousel" class="carousel slide banner-slider animated bounceInDown" data-ride="carousel">     
-      <div class="carousel-inner">
-        <div class="item active">
-          <img id="flip-1" class="img-contain" alt="banner">
-        </div>
-        <div class="item">
-          <img id="flip-2" class="img-contain" alt="banner">
-        </div>
-        <div class="item">
-          <img id="flip-3" class="img-contain" alt="banner">
-        </div>
-        <div class="item">
-        <img id="flip-4" class="img-contain" alt="banner">
-        </div>
-        <div class="item">
-        <img id="flip-5" class="img-contain" alt="banner">
-        </div>
+      <div id="parent" class="carousel-inner">
+      
+      <!-- jsで動的に追加 -->
         
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon-chevron-left"><i class="fa fa-angle-left"></i></span></a>
