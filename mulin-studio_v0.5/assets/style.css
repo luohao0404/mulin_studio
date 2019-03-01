@@ -447,5 +447,9 @@ div .contact-pad{
 
 	.grid.team div{margin: 0;padding: 0;}
 	figure.effect-chico figcaption {padding: 1.5em;}
-	.footer{margin-top: 0em;padding-bottom: 2em;}
+    .footer{margin-top: 0em;padding-bottom: 2em;}
+    
+    .join {
+        width:40%;
+    }
 }
